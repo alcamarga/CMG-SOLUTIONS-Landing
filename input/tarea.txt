@@ -1,0 +1,21 @@
+Actualización de Landing Page - CMG Solutions v2.0
+
+Objetivo: Modernizar el archivo index.html para reflejar mi transición a Fullstack Developer y la madurez de mis soluciones SaaS.
+
+Instrucciones para los Agentes:
+
+PM: Definir la nueva propuesta de valor. Cambiar la tagline a: "Ingeniería de software industrial y automatización inteligente para negocios en crecimiento."
+
+Arquitecto: Actualizar la sección "Sobre Mí". Debe resaltar: "Fullstack Developer especializado en orquestación multi-agente, automatización de procesos industriales y desarrollo de sistemas SaaS (pizzaOS, DiscOS)".
+
+Desarrollador:
+
+Mantener la estructura pero elevar el tono profesional.
+
+Agregar una sección de "Especialidades" mencionando: Automatización, SDD (Spec-Driven Development), y SaaS Industrial.
+
+Asegurar que los enlaces de contacto sean funcionales y mantengan el formato actual.
+
+Documentador: Generar el reporte PDF de esta actualización y preparar la estructura del repo para despliegue en GitHub Pages.
+
+QA: Verificar que el CSS no se rompa y que el archivo resultante sea válido.

@@ -156,6 +156,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+historial_tareas/
+output/
+plan_final.md
+estado_proyecto.json
+.DS_Store
 
 # Spyder project settings
 .spyderproject
