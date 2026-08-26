@@ -1,0 +1,56 @@
+/* style.css - CMG Solutions */
+:root {
+    --accent-cyan: #22d3ee;
+    --accent-purple: #a855f7;
+    --text-main: #f8fafc;
+}
+
+body {
+    /* Fondo: Imagen visible bajo un azul muy oscuro (opacidad 0.8) */
+    background: linear-gradient(135deg, rgba(2, 6, 23, 0.8), rgba(2, 6, 23, 0.8)), 
+                url('assets/fondo-programacion.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--text-main);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header { padding: 50px 20px; text-align: center; }
+h1 { color: var(--accent-cyan); font-size: 3rem; margin-bottom: 10px; }
+.tagline { color: var(--accent-purple); letter-spacing: 5px; font-weight: bold; }
+
+/* Corrección del Logo para eliminar bordes */
+.logo-img {
+    width: 90% !important;
+    max-width: 600px !important;
+    display: block;
+    margin: 0 auto 30px auto;
+    /* Recorta los bordes para quitar ruido de compresión */
+    clip-path: inset(1% 1% 1% 1%);
+    /* Filtro para que el negro del JPEG se funda con el azul oscuro */
+    filter: brightness(1.2) contrast(1.1);
+    mix-blend-mode: screen;
+}
+
+section { padding: 30px 20px; max-width: 900px; margin: auto; }
+h2 { color: var(--accent-cyan); border-bottom: 2px solid var(--accent-cyan); padding-bottom: 10px; }
+
+.product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+
+.card, .contact-info {
+    background: rgba(30, 58, 138, 0.3) !important;
+    border: 1px solid rgba(34, 211, 238, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.contact-info { text-align: center; }
+.contact-info a { color: var(--accent-cyan); text-decoration: none; display: block; margin: 10px 0; }
+
+.whatsapp-btn {
+    position: fixed; bottom: 30px; right: 30px; background: #25D366; color: white;
+    padding: 15px 30px; border-radius: 50px; font-weight: bold;
+}

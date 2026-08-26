@@ -8,19 +8,24 @@
 </head>
 <body>
 
-    <header>
-        <img src="assets/logo_orizontal.jpeg" alt="CMG Solutions Logo" class="logo-img">
-        <h1>CMG Solutions - AI Software Factory</h1>
-        <p class="tagline">Arquitectura avanzada para la automatización del ciclo de vida del desarrollo.</p>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="assets/logo_orizontal.jpeg" alt="CMG Solutions Logo" class="logo-img">
+            <h1>CMG Solutions - AI Software Factory</h1>
+            <p class="subtitle">Transformamos ideas en soluciones tecnológicas de alto rendimiento.</p>
+            <p class="tagline">Arquitectura avanzada para la automatización del ciclo de vida del desarrollo.</p>
+        </div>
     </header>
 
-    <section id="about">
+    <!-- About Section -->
+    <section id="about" class="container">
         <h2>Software Architect | IA & Automatización</h2>
-        <p>Soy Camilo Martínez Galarza. Especializado en el diseño y orquestación de sistemas de IA y automatización industrial. No solo construyo software; diseño <strong>procesos industrializados</strong> para desarrollar tecnología robusta mediante Spec-Driven Development (SDD).</p>
+        <p>Soy <strong>Camilo Martínez Galarza</strong>. Especializado en el diseño y orquestación de sistemas de IA y automatización industrial. No solo construyo software; diseño <strong>procesos industrializados</strong> para desarrollar tecnología robusta mediante Spec-Driven Development (SDD).</p>
     </section>
 
-    <!-- Sección de Fábrica Optimizada -->
-    <section id="factory">
+    <!-- AI Software Factory Section -->
+    <section id="factory" class="container">
         <h2>AI Software Factory</h2>
         <p>He desarrollado un motor de orquestación multi-agente que redefine cómo se construye el software moderno. Mi fábrica garantiza calidad, trazabilidad y velocidad sin sacrificar la supervisión humana estratégica.</p>
         
@@ -44,37 +49,70 @@
         </div>
     </section>
 
-    <section id="productos">
+    <!-- Especialidades Section (Ajustada a 2 columnas para optimizar espacio) -->
+    <section id="especialidades" class="container">
+        <h2>Nuestras Especialidades</h2>
+        <ul class="specialties-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; list-style: none; padding: 0;">
+            <li style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
+                <h3 style="margin-top: 0;">Automatización Industrial</h3>
+                <p style="margin-bottom: 0;">Control y eficiencia en procesos operativos complejos.</p>
+            </li>
+            <li style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
+                <h3 style="margin-top: 0;">Desarrollo de Sistemas SaaS</h3>
+                <p style="margin-bottom: 0;">Plataformas en la nube escalables y de alta disponibilidad.</p>
+            </li>
+            <li style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
+                <h3 style="margin-top: 0;">Optimización de Procesos</h3>
+                <p style="margin-bottom: 0;">Mejora continua e integración tecnológica empresarial.</p>
+            </li>
+            <li style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
+                <h3 style="margin-top: 0;">Arquitectura Escalable</h3>
+                <p style="margin-bottom: 0;">Diseño de infraestructura orientada al crecimiento y rendimiento.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sistemas bajo Gestión / Productos -->
+    <section id="productos" class="container">
         <h2>Sistemas bajo Gestión</h2>
-        <div class="product-grid">
+        <div class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;">
             <a href="https://foodmaster-web.vercel.app/" target="_blank" style="text-decoration: none; color: inherit;">
-                <div class="card">
+                <div class="card" style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
                     <h3>FoodMaster</h3>
                     <p>SaaS de gestión gastronómica industrializada. <strong>(Demo aquí)</strong></p>
                 </div>
             </a>
             
-            <div class="card">
+            <div class="card" style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px;">
                 <h3>DiscOS</h3>
                 <p>Plataforma core para ingeniería de datos y visualización de alto impacto.</p>
             </div>
         </div>
     </section>
 
-    <section id="contacto">
-        <div class="contact-info">
+    <!-- Contact Section -->
+    <section id="contacto" class="container">
+        <div class="contact-info" style="text-align: center;">
             <h2>Hablemos de Arquitectura</h2>
             <p><strong>Camilo Martínez Galarza</strong></p>
-            <a href="tel:+573176756695">📞 +57 317 675 6695</a>
-            <a href="https://github.com/alcamarga" target="_blank">💻 GitHub: alcamarga</a>
-            <a href="https://www.linkedin.com/in/camilo-martinez-galarza-358a651a/" target="_blank">🔗 LinkedIn</a>
-            <a href="mailto:alcamarga@hotmail.com">📧 alcamarga@hotmail.com</a>
+            <p><a href="tel:+573176756695" style="text-decoration: none;">📞 +57 317 675 6695</a></p>
+            <p><a href="https://github.com/alcamarga" target="_blank" style="text-decoration: none;">💻 GitHub: alcamarga</a></p>
+            <p><a href="https://www.linkedin.com/in/camilo-martinez-galarza-358a651a/" target="_blank" style="text-decoration: none;">🔗 LinkedIn Profesional</a></p>
+            <p><a href="mailto:alcamarga@hotmail.com" style="text-decoration: none;">📧 alcamarga@hotmail.com</a></p>
         </div>
     </section>
 
-    <a href="https://wa.me/573176756695" class="whatsapp-btn" target="_blank">
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/573176756695" class="whatsapp-btn" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; padding: 12px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.2); z-index: 1000;">
         💬 ¡Hablemos!
     </a>
 
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 CMG Solutions. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="scripts.js"></script>
 </body>
 </html>
