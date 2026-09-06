@@ -1,0 +1,37 @@
+{
+    "nombre_proyecto": "CMG-SOLUTIONS-Landing",
+    "empresa": "CMG Solutions",
+    "propietario": "Camilo Martínez Galarza",
+    "tokens_identidad": [
+        "CMG Solutions",
+        "AI Software Factory",
+        "Camilo Martínez Galarza",
+        "alcamarga",
+        "FoodMaster",
+        "DiscOS",
+        "Spec-Driven Development",
+        "SDD",
+        "Automatización Industrial"
+    ],
+    "sistemas": [
+        "FoodMaster",
+        "DiscOS"
+    ],
+    "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Flask",
+        "Angular",
+        "TypeScript"
+    ],
+    "enlaces_reales": [
+        "https://github.com/alcamarga",
+        "https://www.linkedin.com/in/camilo-martinez-galarza-358a651a/",
+        "https://foodmaster-web.vercel.app/",
+        "https://wa.me/573176756695",
+        "mailto:alcamarga@hotmail.com"
+    ],
+    "año": 2026
+}

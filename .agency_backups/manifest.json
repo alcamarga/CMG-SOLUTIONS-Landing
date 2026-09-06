@@ -1,0 +1,28 @@
+{
+  "checkpoints": [
+    "ckpt_20260906_102721"
+  ],
+  "last_hashes": {
+    "plan_final.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mapa_proyecto.json": "ad296f9ed9c6d44af18213496fd34396c52417d49994f23f3ee69284b7670564",
+    "index.html": "7d84ed2d127ad4416c8920105db45baefe7f80ce4d00a3fb9a04e1537a860783",
+    "style.css": "168dbfbcbcd776d2ab318504583de15ef51ace061aeed18ac22bebcb8c7d9966",
+    "contrato_tarea.md": "5325297ef103b19a3f8a15ab2a1adff13bbd7095dcab6733f6b5bc246daf7dee",
+    "identity.json": "1c3c3165348c88f898391edd884bb4cde836b7bb7b44de2262c51c66ee64de83",
+    "decision_log.md": "21c47187fe2f6fecd5a94a7096bc8953150157b1d419657c9e46df76f626cdd0",
+    "README.md": "b00a431f300ce8f3c9722c01cee44bc92ea0712e06fd89e5f4c46d7f826fc91e",
+    "rollback_agent.py": "b4d851aebc99b7707e2c2f3a8c178c3a091e3bda324b8ba5e60a4357f01592cf",
+    "dashboard.html": "f40d58c252663bc64e8d30c3f38f25951f3466bcbcc3a3e7e14835c82535d804",
+    "scripts.js": "f14beb6ad8852f38bfa7f7f77937393419f01ade7d4e7434f2653c628005b302",
+    ".github/workflows/azure-static-web-apps-wonderful-desert-0f6114310.yml": "e547727f040a9fb8fb58679fe1cc0bf15caea34e3227252a78af4a727441e654",
+    ".cursor/mcp.json": "c28271e910d0c243bdc3a637fb1688c7e410456413cc314a888a7ec92a0a00fd"
+  },
+  "last_checkpoint": {
+    "name": "ckpt_20260906_102721",
+    "timestamp": "20260906_102721",
+    "message": "Check: ejecutor",
+    "files_changed": 2,
+    "files_backed_up": 2,
+    "total_files": 13
+  }
+}
