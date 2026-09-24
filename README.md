@@ -1,1 +1,5 @@
-Lo siento, pero parece que tu solicitud se cortó al final. No puedo ver el contenido completo del mensaje. ¿Podrías proporcionar más detalles o completar la información para que pueda ayudarte de manera efectiva?
+# CMGSolutions — Landing Page
+
+Landing page oficial de **CMG Solutions**, AI Software Factory orientada a desarrollo guiado por especificaciones (Spec-Driven Development) y automatización industrial.
+
+## Estructura del Proyecto
