@@ -1,0 +1,44 @@
+# CONTRATO DE TAREA — SPEC-DRIVEN (task_contract/v1)
+> Contract Gate: VALIDACIÓN DETERMINISTA SUPERADA (cero LLM). Empaquetado atómico por el bridge.
+
+## 1. QUÉ — OBJETIVO DE LA TAREA
+Actualizar y enriquecer el archivo `index.html` del repositorio/proyecto `CMG-SOLUTIONS-Landing` para integrar formalmente la oferta del nuevo servicio estrella de consultoría:
+- **Nombre del Servicio:** "Auditoría Técnica y Diagnóstico de IA para Automatización de Procesos Empresariales".
+- **Descripción:** Evaluación ejecutiva de procesos operativos, identificación de cuellos de botella (bottlenecks), matriz de ganancias rápidas (Quick Wins), diseño de arquitectura de IA multi-agente, cálculo de ROI/ahorro de tiempos y hoja de ruta de implementación.
+- **Revisión Gramatical y Ortográfica:** Realizar una auditoría completa del texto de todo el documento `index.html`, corrigiendo tildes, redacción, falta de palabras o errores ortográficos para asegurar un tono profesional, técnico e impecable de CMG Solutions.
+
+## 2. DÓNDE — ALCANCE EXACTO (ARCHIVO / COMPONENTE / SECCIÓN)
+Exclusivamente en el archivo `index.html` del proyecto `CMG-SOLUTIONS-Landing`.
+
+## 3. CÓMO — ESPECIFICACIÓN TÉCNICA
+Modifica e inserta la tarjeta/sección del nuevo servicio dentro de la sección de Servicios / Soluciones del `index.html`, manteniendo la estructura semántica de etiquetas HTML existentes (`<section>`, `<article>`, `<div>`, etc.).
+- Utiliza las clases CSS existentes para garantizar una integración visual armónica.
+- Revisa minuciosamente la ortografía de cada párrafo, título y pie de página del archivo.
+
+## 4. LÍMITES — RESTRICCIONES (NO TOCAR)
+**PROHIBIDO MODIFICAR EL ARCHIVO `style.css`:** No debes tocar, alterar ni agregar estilos al archivo CSS. Toda la nueva sección y correcciones deben reutilizar estrictamente las clases y la paleta existente en el HTML/CSS actual.
+- **Sin Regresiones de Estructura:** Conserva las etiquetas de Scripts, Meta tags, fuentes de imágenes e íconos existentes.
+- **Preservación del Diseño:** El estilo visual, colores y layout deben permanecer 100% intactos.
+
+## 5. ACEPTACIÓN — CRITERIOS DE VERIFICACIÓN
+1. El archivo `index.html` contiene el nuevo servicio de "Auditoría Técnica y Diagnóstico de IA" redactado con un tono comercial y técnico de alto impacto.
+2. Todo el texto de la página Web cuenta con 0 errores de ortografía y gramática impecable.
+3. El archivo `style.css` no ha sido modificado en absoluto.
+4. Las pruebas sintácticas del HTML aprueban sin errores y el archivo mantiene su visualización perfecta.
+
+## 6. METADATOS DEL CONTRATO
+```json
+{
+  "esquema": "task_contract/v1",
+  "generado_por": "bridge_server.py::contract_gate",
+  "timestamp": "2026-10-12 10:49:00",
+  "proyecto": "CMG-SOLUTIONS-Landing",
+  "campos": [
+    "que",
+    "donde",
+    "como",
+    "limites",
+    "aceptacion"
+  ]
+}
+```
