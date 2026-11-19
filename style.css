@@ -99,9 +99,15 @@ h2 { color: var(--accent-cyan); border-bottom: 2px solid var(--accent-cyan); pad
 }
 
 .privacy-note .privacy-icon {
-    flex: 0 0 auto;
+    flex: 0 0 26px;
+    display: block;
     width: 26px;
     height: 26px;
+    min-width: 26px;
+    max-width: 26px;
+    min-height: 26px;
+    max-height: 26px;
+    aspect-ratio: 1 / 1;
     color: var(--accent-purple);
 }
 
@@ -152,8 +158,19 @@ h2 { color: var(--accent-cyan); border-bottom: 2px solid var(--accent-cyan); pad
 .showcase-card .card-icon {
     display: grid;
     place-items: center;
+    flex: 0 0 auto;
+    align-self: flex-start;
+    box-sizing: border-box;
     width: 44px;
     height: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    min-height: 44px;
+    max-height: 44px;
+    aspect-ratio: 1 / 1;
+    padding: 0;
+    overflow: hidden;
+    line-height: 0;
     margin-bottom: 16px;
     border: 1px solid rgba(34, 211, 238, 0.25);
     border-radius: 12px;
@@ -161,7 +178,15 @@ h2 { color: var(--accent-cyan); border-bottom: 2px solid var(--accent-cyan); pad
     color: var(--accent-cyan);
 }
 
-.showcase-card .card-icon svg { width: 22px; height: 22px; }
+.showcase-card .card-icon svg {
+    display: block;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    aspect-ratio: 1 / 1;
+}
 
 .showcase-card h3 {
     margin: 0 0 10px;
@@ -302,6 +327,30 @@ h2 { color: var(--accent-cyan); border-bottom: 2px solid var(--accent-cyan); pad
 
 @media (max-width: 640px) {
     .showcase-card { padding: 20px; }
+    .showcase-card .card-icon {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        max-width: 40px;
+        min-height: 40px;
+        max-height: 40px;
+        margin-bottom: 14px;
+    }
+    .showcase-card .card-icon svg {
+        width: 22px;
+        height: 22px;
+        max-width: 22px;
+        max-height: 22px;
+    }
+    .privacy-note .privacy-icon {
+        flex: 0 0 22px;
+        width: 22px;
+        height: 22px;
+        min-width: 22px;
+        max-width: 22px;
+        min-height: 22px;
+        max-height: 22px;
+    }
     .showcase-cta { padding: 20px; }
     .showcase-actions { width: 100%; }
     .showcase-btn { width: 100%; }
